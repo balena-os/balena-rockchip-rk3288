@@ -1,4 +1,19 @@
 - commits:
+    - subject: Use non-authenticated fetch with meta-rockchip module
+      hash: 2c0d94f4233dbec6aa52c5a3102d6502664641df
+      body: |
+        The meta-rockchip module is currently using SSH authentication which
+        versiobot does not support.
+      footer:
+        Changelog-entry: Use non-authenticated fetch with meta-rockchip module
+        changelog-entry: Use non-authenticated fetch with meta-rockchip module
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.38.3+rev11
+  date: 2021-09-24T15:07:38.063Z
+- commits:
     - subject: Update balena-yocto-scripts to v1.7.1
       hash: ecfcaf69d4e45964fef6001ab794533ea523f37e
       body: ''

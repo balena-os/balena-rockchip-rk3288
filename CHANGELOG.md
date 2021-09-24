@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.38.3+rev11
+## (2021-09-24)
+
+* Use non-authenticated fetch with meta-rockchip module [Alex Gonzalez]
+
 # v2.38.3+rev10
 ## (2020-05-15)
 
