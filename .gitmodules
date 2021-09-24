@@ -15,4 +15,4 @@
 	url = https://github.com/balena-os/poky
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
-	url = git@github.com:clodpi/meta-rockchip.git
+	url = https://github.com/clodpi/meta-rockchip.git
