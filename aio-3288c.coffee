@@ -20,10 +20,10 @@ module.exports =
 
 	yocto:
 		machine: 'aio-3288c'
-		image: 'resin-image'
-		fstype: 'resinos-img'
+		image: 'balena-image'
+		fstype: 'balenaos-img'
 		version: 'yocto-sumo'
-		deployArtifact: 'resin-image-aio-3288c.resinos-img'
+		deployArtifact: 'balena-image-aio-3288c.balenaos-img'
 		compressed: true
 
 	options: [ networkOptions.group ]
