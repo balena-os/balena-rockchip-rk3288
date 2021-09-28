@@ -1,4 +1,23 @@
 - commits:
+    - subject: Add balena-yocto-scripts upstream source
+      hash: d59fe7e5b6ceb6bd80149473a4df23580cac14d8
+      body: >
+        This allows to add nested changelogs from the balena-yocto-scripts
+        repository
+
+        from version >= 1.14.1
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: Add balena-yocto-scripts upstream source
+        changelog-entry: Add balena-yocto-scripts upstream source
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.85.5+rev2
+  date: 2021-09-28T10:09:18.932Z
+- commits:
     - subject: rename resin-supervisor to balena-supervisor
       hash: 4d08107801ccad7bcaaa1f4047da4d26d6e72f2a
       body: |
