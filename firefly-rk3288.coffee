@@ -20,10 +20,10 @@ module.exports =
 
 	yocto:
 		machine: 'firefly-rk3288'
-		image: 'resin-image'
-		fstype: 'resinos-img'
+		image: 'balena-image'
+		fstype: 'balenaos-img'
 		version: 'yocto-sumo'
-		deployArtifact: 'resin-image-firefly-rk3288.resinos-img'
+		deployArtifact: 'balena-image-firefly-rk3288.balenaos-img'
 		compressed: true
 
 	options: [ networkOptions.group ]

@@ -1,11 +1,11 @@
-IMAGE_FSTYPES_append = " resinos-img"
+IMAGE_FSTYPES_append = " balenaos-img"
 
-IMAGE_CMD_resinos-img_append () {
-    dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/idbloader.img of=${RESIN_RAW_IMG} bs=512 seek=64
+IMAGE_CMD_balenaos-img_append () {
+    dd conv=notrunc,fsync if=${DEPLOY_DIR_IMAGE}/idbloader.img of=${BALENA_RAW_IMG} bs=512 seek=64
 }
 
-RESIN_IMAGE_BOOTLOADER = "u-boot-rk3288"
-RESIN_BOOT_PARTITION_FILES_append = " \
+BALENA_IMAGE_BOOTLOADER = "u-boot-rk3288"
+BALENA_BOOT_PARTITION_FILES_append = " \
     zImage${KERNEL_INITRAMFS}-${MACHINE}.bin:/zImage \
     zImage-${KERNEL_DEVICETREE}:/firefly-rk3288.dtb \
     ${DEPLOY_DIR_IMAGE}/idbloader.img:/idbloader.img \
