@@ -1,4 +1,21 @@
 - commits:
+    - subject: 'meta-balena-rockchip: update local.conf.sample'
+      hash: 4201d495e0982736cd4febe47815e6fe7f16e7b6
+      body: |
+        Update the sample configuration file to use OS_DEVELOPMENT instead of
+        DEVELOPMENT_IMAGE.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: 'meta-balena-rockchip: update local.conf.sample'
+        changelog-entry: 'meta-balena-rockchip: update local.conf.sample'
+        Signed-off-by: Mark Corbin <mark@balena.io>
+        signed-off-by: Mark Corbin <mark@balena.io>
+      author: Mark Corbin
+      nested: []
+  version: 2.85.5+rev3
+  date: 2021-10-18T13:52:52.613Z
+- commits:
     - subject: Add balena-yocto-scripts upstream source
       hash: d59fe7e5b6ceb6bd80149473a4df23580cac14d8
       body: >
