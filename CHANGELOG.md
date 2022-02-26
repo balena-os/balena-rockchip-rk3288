@@ -1,6 +1,47 @@
 Change log
 -----------
 
+# v2.85.5+rev8
+## (2022-02-26)
+
+
+<details>
+<summary> Update balena-yocto-scripts to v1.17.2 [Alex Gonzalez] </summary>
+
+> ## balena-yocto-scripts-1.17.2
+> ### (2022-02-25)
+> 
+> * prepare-and-start: Remove balena login [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.17.1
+> ### (2022-01-27)
+> 
+> * balena-deploy.inc: Do no deploy device logo to deprecated endpoint [Florin Sarbu]
+> 
+</details>
+
+
+<details>
+<summary> Update balena-yocto-scripts to v1.17.0 [Alex Gonzalez] </summary>
+
+> ## balena-yocto-scripts-1.17.0
+> ### (2022-01-20)
+> 
+> * balena-lib: Fix fetching meta-balena base version [Alex Gonzalez]
+> * jenkins_build-block: Use true/false for ESR variable [Alex Gonzalez]
+> * balena-deploy-block: Label ESR hostapps [Alex Gonzalez]
+> * balena-api: add balena_api_fetch_fleet_tag [Alex Gonzalez]
+> * balena-api: Set policy on ESR hostapps [Alex Gonzalez]
+> * balena-deploy: Pass ESR variable when creating apps [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.16.4
+> ### (2022-01-18)
+> 
+> * balena-deploy: Deploy passing the latest meta-balena version and not tag [Alex Gonzalez]
+> * balena-lib: Add balena_lib_get_meta_balena_base_version [Alex Gonzalez]
+> 
+</details>
+
 # v2.85.5+rev7
 ## (2022-01-18)
 
