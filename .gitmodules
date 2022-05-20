@@ -16,3 +16,6 @@
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
 	url = https://github.com/clodpi/meta-rockchip.git
+[submodule "contracts"]
+	path = contracts
+	url = https://github.com/balena-io/contracts.git
