@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.85.5+rev12
+## (2022-06-20)
+
+* Configure renovate to process forks [Alex Gonzalez]
+
 # v2.85.5+rev11
 ## (2022-06-08)
 

@@ -1,4 +1,19 @@
 - commits:
+    - subject: Configure renovate to process forks
+      hash: 1424b2b15a9526daea7a246486ec18bb50dd3a6d
+      body: |
+        Otherwise forked repositories are ignored.
+      footer:
+        Changelog-entry: Configure renovate to process forks
+        changelog-entry: Configure renovate to process forks
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.85.5+rev12
+  title: "'renovate: Configure repository to include forks'"
+  date: 2022-06-20T16:11:18.338Z
+- commits:
     - subject: Add build and deploy workflow
       hash: d9118c07b6852045c09e5e6939a4296da2f9030a
       body: >
