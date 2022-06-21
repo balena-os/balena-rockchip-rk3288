@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.85.5+rev13
+## (2022-06-21)
+
+* Move renovate configuration to the repository root [Alex Gonzalez]
+
 # v2.85.5+rev12
 ## (2022-06-20)
 

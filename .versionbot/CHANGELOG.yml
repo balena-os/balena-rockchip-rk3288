@@ -1,4 +1,20 @@
 - commits:
+    - subject: Move renovate configuration to the repository root
+      hash: 4e2156801d6d58070eafb150c553923772223ddc
+      body: |
+        According to the renovate maintainers, in order to configure forked
+        repositories the configuration file needs to be in the repository root.
+      footer:
+        Changelog-entry: Move renovate configuration to the repository root
+        changelog-entry: Move renovate configuration to the repository root
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.85.5+rev13
+  title: "'Renovate: Move configuration to the repository root'"
+  date: 2022-06-21T12:55:35.194Z
+- commits:
     - subject: Configure renovate to process forks
       hash: 1424b2b15a9526daea7a246486ec18bb50dd3a6d
       body: |
