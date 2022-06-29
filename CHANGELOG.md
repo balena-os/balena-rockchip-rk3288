@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.99.24
+## (2022-06-29)
+
+
+<details>
+<summary> Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e [renovate[bot]] </summary>
+
+> ## meta-balena-2.99.24
+> ### (2022-06-28)
+> 
+> * tests: Increase delay when testing randomized timers [Kyle Harding]
+> 
+</details>
+
 # v2.99.23+rev1
 ## (2022-06-29)
 
