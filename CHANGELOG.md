@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.99.25+rev1
+## (2022-08-04)
+
+* layers/meta-rockchip: Fix https protocol [Alexandru Costache]
+* Update build and deploy workflow to support ESR tags [Alex Gonzalez]
+
 # v2.99.25
 ## (2022-06-29)
 
