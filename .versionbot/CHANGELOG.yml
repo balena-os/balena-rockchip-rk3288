@@ -1,4 +1,32 @@
 - commits:
+    - subject: "layers/meta-rockchip: Fix https protocol"
+      hash: d5249b0e618db045806faabcda31044428bb0029
+      body: |
+        We temporarily switch to my personal repository
+        which adds https protocol to github URIs, so
+        we can check if there are other build failures.
+      footer:
+        Changelog-entry: "layers/meta-rockchip: Fix https protocol"
+        changelog-entry: "layers/meta-rockchip: Fix https protocol"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+    - subject: Update build and deploy workflow to support ESR tags
+      hash: 8ce92afbc96cb21bcf000745ca970967037511e2
+      body: |
+        This adds support for build and deploy of ESR tags.
+      footer:
+        Changelog-entry: Update build and deploy workflow to support ESR tags
+        changelog-entry: Update build and deploy workflow to support ESR tags
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.99.25+rev1
+  title: "'layers/meta-rockchip: Fix https protocol'"
+  date: 2022-08-04T15:49:01.507Z
+- commits:
     - subject: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
       hash: 3937f40c0fc6875eb77b697220504f5ec406a39f
       body: Update layers/meta-balena
