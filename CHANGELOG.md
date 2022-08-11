@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.99.25+rev1
+## (2022-08-11)
+
+* Modify layer ordering [Alex Gonzalez]
+* Update build and deploy workflow to support ESR tags [Alex Gonzalez]
+
 # v2.99.25
 ## (2022-06-29)
 

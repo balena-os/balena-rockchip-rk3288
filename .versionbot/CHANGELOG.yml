@@ -1,4 +1,31 @@
 - commits:
+    - subject: Modify layer ordering
+      hash: ec452ace4a852cdc49f3d0f1bf071142b3f1b8a8
+      body: |
+        Yocto classes and conf files ignore layer priorities and are parsed
+        in order instead.
+      footer:
+        Changelog-entry: Modify layer ordering
+        changelog-entry: Modify layer ordering
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Update build and deploy workflow to support ESR tags
+      hash: 8ce92afbc96cb21bcf000745ca970967037511e2
+      body: |
+        This adds support for build and deploy of ESR tags.
+      footer:
+        Changelog-entry: Update build and deploy workflow to support ESR tags
+        changelog-entry: Update build and deploy workflow to support ESR tags
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.99.25+rev1
+  title: "'bblayers: Modify layer ordering'"
+  date: 2022-08-11T10:27:57.296Z
+- commits:
     - subject: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
       hash: 3937f40c0fc6875eb77b697220504f5ec406a39f
       body: Update layers/meta-balena
