@@ -1,6 +1,13 @@
 Change log
 -----------
 
+# v2.99.25+rev1
+## (2022-08-17)
+
+* Discontinue AIO 3288C [Alex Gonzalez]
+* Discontinue FireFly rk3288 [Alex Gonzalez]
+* Update build and deploy workflow to support ESR tags [Alex Gonzalez]
+
 # v2.99.25
 ## (2022-06-29)
 

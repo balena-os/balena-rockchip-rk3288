@@ -1,4 +1,53 @@
 - commits:
+    - subject: Discontinue AIO 3288C
+      hash: d7a4e98ee2d46db0946ba447d95f80280cc1638b
+      body: >
+        This device has a Sumo based Yocto BSP with a 2017 u-boot and 4.4
+        kernel.
+
+
+        Repeated requests to the community maintainers for a BSP update have
+
+        gone unanswered, so we decided to discontinue support.
+      footer:
+        Changelog-entry: Discontinue AIO 3288C
+        changelog-entry: Discontinue AIO 3288C
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Discontinue FireFly rk3288
+      hash: 57b49c223ead5add1ffc0b9c81df1390f8728514
+      body: >
+        This device has a Sumo based Yocto BSP with a 2017 u-boot and 4.4
+        kernel.
+
+
+        Repeated requests to the community maintainers for a BSP update have
+
+        gone unanswered, so we decided to discontinue support.
+      footer:
+        Changelog-entry: Discontinue FireFly rk3288
+        changelog-entry: Discontinue FireFly rk3288
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Update build and deploy workflow to support ESR tags
+      hash: 8ce92afbc96cb21bcf000745ca970967037511e2
+      body: |
+        This adds support for build and deploy of ESR tags.
+      footer:
+        Changelog-entry: Update build and deploy workflow to support ESR tags
+        changelog-entry: Update build and deploy workflow to support ESR tags
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.99.25+rev1
+  title: "'Discontinue FireFly rk3288 and AIO 3288C'"
+  date: 2022-08-17T13:41:26.590Z
+- commits:
     - subject: Update layers/meta-balena to b76de1e01b5e49196a800340335a3fb2c814b931
       hash: 3937f40c0fc6875eb77b697220504f5ec406a39f
       body: Update layers/meta-balena
