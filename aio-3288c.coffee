@@ -7,7 +7,7 @@ module.exports =
 	aliases: [ 'aio-3288c' ]
 	name: 'AIO 3288C'
 	arch: 'armv7hf'
-	state: 'released'
+	state: 'discontinued'
 
 	instructions: commonImg.instructions
 
