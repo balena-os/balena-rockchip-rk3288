@@ -7,7 +7,7 @@ module.exports =
 	aliases: [ 'firefly-rk3288' ]
 	name: 'FireFly rk3288'
 	arch: 'armv7hf'
-	state: 'released'
+	state: 'discontinued'
 
 	instructions: commonImg.instructions
 
