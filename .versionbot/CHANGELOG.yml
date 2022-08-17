@@ -1,4 +1,94 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
+      hash: a15345d3df3381546bb378d34ba0265a2a4d972e
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
+        changelog-entry: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "barys: Add balena-rust to syntax conversion step"
+              hash: 2fb2b25a2bc6c226f3d4d570a2bfb261585ed283
+              body: >
+                Recent versions of meta-balena include a balena-rust layer used
+                to
+
+                specify a distro-set Rust version across all supported Yocto versions
+
+
+                As such, the syntax of this layer also needs to be converted.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.19.12
+          title: "'barys: Add balena-rust to syntax conversion step'"
+          date: 2022-08-08T15:25:50.686Z
+        - commits:
+            - subject: "balena-api: On hostapp creation, set class to app"
+              hash: 3bb4995b8bedcfe83b75c3ef6151725828dd1eb8
+              body: >
+                Applications can be fleet, blocks or apps, and hostapps need to
+                be set
+
+                as apps.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.19.11
+          title: "'balena-api: On hostapp creation, set class to app'"
+          date: 2022-07-25T17:11:36.181Z
+        - commits:
+            - subject: "balena-deploy: Use balena-img instead of resin-img"
+              hash: 93a91f27b8538d60b45d0f25eb1fddf512e31e52
+              body: >
+                The resin-img is no longer maintained and the deployment of raw
+                images
+
+                as well as flasher requires features only available in balena-img.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: Global rename from dockerhub resin to balena accounts
+              hash: 6f28a6fed6d28f713312b8e856cf6bc6a8bba045
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "automation: Stop deploying images to dockerhub"
+              hash: 988886a34945b9e9993abbcf651824b774910740
+              body: |
+                We are now using just the internal registry.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.19.10
+          title: "'Global rename from dockerhub resin to balena accounts'"
+          date: 2022-06-29T14:41:44.861Z
+  version: 2.99.25+rev2
+  title: "'Update balena-yocto-scripts digest to 9980750'"
+  date: 2022-08-17T14:07:17.234Z
+- commits:
     - subject: Discontinue AIO 3288C
       hash: d7a4e98ee2d46db0946ba447d95f80280cc1638b
       body: >
