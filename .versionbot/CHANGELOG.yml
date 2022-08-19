@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update contracts to 39a79c43f1b8ab4426d7a9c1cdeb9a9514101061
+      hash: 073610af699e527bd47f78ac997f9e3f8b119a09
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 39a79c43f1b8ab4426d7a9c1cdeb9a9514101061
+        changelog-entry: Update contracts to 39a79c43f1b8ab4426d7a9c1cdeb9a9514101061
+      author: renovate[bot]
+      nested: []
+  version: 2.99.25+rev4
+  date: 2022-08-19T10:55:49.869Z
+- commits:
     - subject: Update contracts to 91807ae538dccedb69877eed28ae6752287e2f21
       hash: 52c0c45e8cf43ce804ce1ccb30543a56b0c0df27
       body: Update contracts
